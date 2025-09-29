@@ -1,0 +1,156 @@
+ <!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=DotGothic16&display=swap" rel="stylesheet">
+    <title>Primavera no Japão</title>
+    <style>
+        body {
+            margin-left: 15%;
+            margin-right: 15%;
+            background-color: #fce4ec; 
+            font-family: cursive; 
+        }
+        
+        header {
+            height: 200px;  
+            background-image: url('bunny.jpg');
+            background-size: cover; 
+            text-align: center;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.377);
+            border-radius: 20px;
+            line-height: 200px;
+            font-size: 2em;
+            color:  #8baf36;
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+
+        header h1{
+            font-family:cursive;
+            font-size: clamp(1.5em, 5vw, 2.5em);
+        }
+
+        main p {
+            color: rgb(145, 74, 101);
+            font-size: 20px;
+        }
+
+        main p::before {
+            content: "🌸 "; 
+            margin-right: 8px;  
+            font-size: 1.2em;  
+        }
+
+        main p:first-of-type {
+            margin-top: 50px;
+        }
+         
+        footer {
+            text-align: center;
+            padding: 20px;
+            font-size: 0.9em;
+            color:rgb(87, 123, 36);
+            margin-top: 40px;
+        }
+
+        .caderno-container {
+            background-color: #ffffff; 
+            border: 1px solid #e0e0e0;  
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.377); 
+            padding: 30px;  
+            
+            background-image: linear-gradient(to bottom, #d6eaff, #d6eaff 1px, transparent 1px, transparent 20px);
+            background-size: 100% 20px;
+        }
+
+        .container-formas {
+            display: flex;
+            align-items: flex-start;
+            gap: 20px;
+            margin-top: 50px;
+            margin-bottom: 50px;
+        }
+
+        .quadrado1 { /* QUADRADO 1 */
+            width: 350px;
+            height: 300px;
+            background-image: url("mitsuri.jpg");  
+            background-size: cover;
+            border-radius: 10px;
+                    border: 7px solid #b3ff67; 
+                    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.377);  
+                    overflow: hidden;  
+            
+        }
+
+        .grupo-retangulos {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            flex-grow: 1; /* Faz esta seção crescer para preencher o espaço! */
+        }
+
+        .quadrado2 { /* QUADRADO 2 */
+            width: 97%; /* Faz a largura preencher a caixa! */
+            height: 190px;
+            background-image: url("cat.gif");  
+            background-size: cover;
+            border-radius: 0px;
+            border: 7px solid  #b3ff67; 
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.377); 
+             
+        }
+
+        .circulo3 { /* CIRCULO 3 */
+            width: 95%; /* Faz a largura preencher a caixa! */
+            height: 70px;
+            background-image: url("strawberry.jpg");  
+            background-size: cover;
+            border-radius: 65px;
+            border: 7px solid #b3ff67; 
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.377);  
+            color: rgb(226, 128, 170); 
+                display: flex;
+                align-items: center; 
+                justify-content: center; 
+                text-align: center; 
+                overflow-wrap: break-word; 
+                padding: 5px; 
+                font-size: 1.6em;
+                font-family: 'DotGothic16', sans-serif;
+        }  
+
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Primavera no Japão</h1>
+    </header>
+
+    <main>
+        <div class="container-formas">
+            <div class="quadrado1"></div> 
+            <div class="grupo-retangulos">
+                <div class="quadrado2"></div> 
+                <div class="circulo3">春風は君の笑顔みたいに優しい</div>
+            </div>
+        </div>
+        
+        <div class="caderno-container"> 
+            <p>   A primavera no Japão é considerada a estação mais simbólica e poética da cultura japonesa. Ela acontece entre março e maio, sendo marcada principalmente pela floração das 桜 (さくら – flores de cerejeira), que são o grande ícone da estação. O florescer das cerejeiras não é apenas um espetáculo da natureza, mas um fenômeno cultural que move todo o país: as pessoas se reúnem nos parques para o 花見 (はなみ – contemplar as flores), um costume milenar de apreciar a beleza efêmera das flores, geralmente acompanhado de piqueniques entre amigos e familiares.</p>
+            <p>   Essa celebração reflete um conceito central da filosofia japonesa: a 物の哀れ (もののあわれ – a impermanência da vida). As flores desabrocham em cores intensas, mas duram poucos dias, lembrando que tudo é passageiro e que devemos valorizar a beleza do momento presente.</p>
+            <p>   Além das 桜, a primavera também é marcada por outros símbolos culturais, como o 雛祭り (ひなまつり – Festival das Meninas, em março), quando se exibem bonecas tradicionais para desejar saúde e felicidade às meninas, e o 子供の日 (こどものひ – Dia das Crianças, em maio), em que carpas coloridas (鯉のぼり – こいのぼり) são penduradas ao vento representando força e superação.</p>
+        </div>
+    </main>
+
+    <footer>
+        <p>Emily Souza dos Santos - Universidade Católica de Brasília</p>
+    </footer>
+
+</body>
+</html>
